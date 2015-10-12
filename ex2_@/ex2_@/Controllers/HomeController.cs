@@ -22,7 +22,7 @@ namespace ex2__.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "dobry vecher";
 
             return View();
         }

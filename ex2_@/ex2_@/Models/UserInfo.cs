@@ -25,6 +25,7 @@ namespace ex2__
         public string Login { get; set; }
 
         [Required]
+        [DataType(DataType.Password)]
         public string Passwd { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
